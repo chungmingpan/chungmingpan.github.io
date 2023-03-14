@@ -1,0 +1,141 @@
+/* gÃŠnÃŠral */
+
+*
+{
+  color: rgb(40,40,40);
+  font-family: Verdana, sans-serif;
+}
+
+body
+{
+  bgcolor="#F1FAFA";
+  font-size: 100%;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.cadre
+{
+  /*background-color: rgb(151, 204, 255);*/
+  padding-top: 10px;
+}
+/*
+ol
+{
+	padding: 10px;
+}
+
+ol li
+{
+	padding: 10px;
+}*/
+
+/*ul
+{
+  list-style-type: none;
+}*/
+
+
+
+h1 {
+  font-size: 2em;
+  padding-left: 15px;
+}
+
+h2 {
+  font-size: 1.5em;
+  padding-left: 15px;
+	background-color: rgb(151, 204, 255);
+}
+
+a:link {
+  color: Navy;
+}
+
+a:visited {
+  color: Navy;
+}
+
+a:hover {
+  color: blue;
+}
+
+a:active {
+  color: red;
+}
+
+/* Menu navigation */
+
+nav {
+  display: inline-block;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+nav a {
+  font-size: 1em;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: Navy;
+  border-bottom: 3px solid Navy;
+}
+
+art_name {
+  text-decoration: none;
+  font-weight: bold;
+}
+
+art_detail {
+  font-size:85%;
+}
+
+abstract {
+  font-size: 85%;
+  color: #444;
+}
+
+citation {
+  font-style: italic;
+}
+
+/* Blocs */
+
+.bloc {
+  display: inline-block;
+  vertical-align:top;
+}
+
+.bloc_left {
+  vertical-align:top;
+  float:left;
+}
+
+.bloc_right {
+  vertical-align:top;
+  float:right;
+}
+
+/* Images */
+
+.logo
+{
+  padding: 5px;
+  max-width: 210px;
+  vertical-align: top;
+}
+
+.photo
+{
+  border: 2px solid Black;
+  height: 200px;
+  border-radius: 5px;
+  margin-top: 10px;
+  margin-right: 10px;
+  vertical-align: top;
+}
