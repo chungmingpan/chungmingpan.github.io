@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="style.css" />
+		<title>Chung-Ming Pan: Homepage</title>
+	</head>
+	<body bgcolor="#F1FAFA";>
+		<script type="text/x-mathjax-config">
+			MathJax.Hub.Config({tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}});
+		</script>
+		<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+		</script>
+		<script type="text/javascript">
+			function toggleDisplay(abst) {
+				if(document.getElementById(abst).style.display == "none" ) {
+					document.getElementById(abst).style.display = "";
+				}
+				else {
+					document.getElementById(abst).style.display = "none";
+				}
+			}
+		</script>
+		<header>
+			<nav class="main-nav">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="research.html">Research</a></li>
+					<li><a href="teaching.html">Teaching</a></li>
+					<li><a href="talks.html">Talks</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main>
+			<hr/>
+				<center><h1>Research</h1></center>
+			<hr/>
+			
+			<h2>Preprints and publications</h2>
+			<ol>
+				<li>
+					<art_name>Kähler-Einstein metrics on families of Fano varieties</art_name> (with Antonio Trusiani)<br>
+					<art_detail>
+						[in preparation]
+					</art_detail>
+					<p></p>
+				</li>
+				
+				<li>
+					<art_name>Families of singular Chern-Ricci flat metrics</art_name><br>
+					<art_detail>
+						[<a href="javascript:;" onclick="toggleDisplay('Fami_sing_Chern_Ricci_flat');">abstract</a>]
+						[<a href="https://arxiv.org/abs/2112.08993" target="_blank">arXiv</a>] 
+						[<a href="https://doi.org/10.1007/s12220-022-01094-9" target="_blank">journal</a>]
+						<i>J. Geom. Anal.</i> 33 (2023), no. 2, article number: 66
+					</art_detail>
+					<p>
+						<div id="Fami_sing_Chern_Ricci_flat" style="display: none">
+							<abstract>
+								We prove uniform a priori estimates for degenerate complex Monge-Ampère equations on a family of hermitian varieties. 
+								This generalizes a theorem of Di Nezza-Guedj-Guenancia to hermitian contexts. 
+								The main result can be applied to study the uniform boundedness of Chern-Ricci flat potentials in conifold transitions.
+							</abstract>
+						</div>
+					</p>
+				</li>
+				
+				<li>
+					<art_name>Singular Gauduchon metrics</art_name><br> 
+					<art_detail>
+						[<a href="javascript:;" onclick="toggleDisplay('Sing_Gaud');">abstract</a>]
+						[<a href="https://arxiv.org/abs/2106.06259" target="_blank">arXiv</a>]
+						[<a href="https://doi.org/10.1112/S0010437X22007618" target="_blank">journal</a>]
+						<i>Compos. Math.</i> 158 (2022), no. 6, 1314-1328
+					</art_detail>
+					<p>
+						<div id="Sing_Gaud" style="display: none">
+							<abstract>
+								In 1977, Gauduchon proved that on every compact hermitian manifold $(X,\omega)$ there exists a conformally equivalent hermitian metric $\omega_{\mathrm{G}}$ which satisfies $\mathrm{dd}^c \omega_{\mathrm{G}}^{n-1} = 0$. 
+								In this note, we extend this result to irreducible compact singular hermitian varieties which admit a smoothing.
+							</abstract>
+						</div>
+					</p>
+				</li>
+			</ol>
+			
+			<h2>Miscellaneous</h2>
+			<ul>
+				<!--<li>
+					<art_name>Familles de métriques hermitiennes canoniques</art_name><br>
+					<art_detail>[] PhD thesis, supervised by V. Guedj and H. Guenancia</art_detail>
+				</li>-->
+				<li>
+					<art_name>Regularity of geodesics in the space of Kähler metrics</art_name><br> 
+					<art_detail>
+						[<a href="research/M2_memoire.pdf" target="_blank">revised text</a>]
+						M2 mémoire, defended at Université Paul Sabatier in July 2020
+					</art_detail>
+				</li>
+			</ul>
+		</main>
+	</body>
+</html>
