@@ -92,7 +92,7 @@ art_name {
 }
 
 art_detail {
-  font-size:85%;
+  font-size:90%;
 }
 
 abstract {
@@ -130,12 +130,23 @@ citation {
   vertical-align: top;
 }
 
-.photo
+/*.photo
 {
   border: 2px solid Black;
   height: 200px;
   border-radius: 5px;
   margin-top: 10px;
   margin-right: 10px;
+  vertical-align: top;
+}*/
+
+.photo
+{
+  border: 2.5px solid Black;
+  height: 190px;
+  border-radius: 5px;
+  margin-top: 12.5px;
+  margin-right: 20px;
+  margin-left: 2.5px;
   vertical-align: top;
 }
