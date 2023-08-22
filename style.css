@@ -1,5 +1,35 @@
 /* gÃŠnÃŠral */
 
+@viewport {
+    width: device-width;
+    initial-scale: 1.0;
+}
+
+@media screen and (min-width: 600px) {
+    .face {
+        float: right;
+        margin-left: 50px;
+    }
+    h1 {
+        text-align: center;
+    }
+    p {
+        text-align: justify;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .page {
+        width: 860px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+        padding-top: 10px;
+        padding-left: 25px;
+        padding-right: 25px;
+        padding-bottom: 25px;
+    }
+}
+
 *
 {
   color: rgb(40,40,40);
