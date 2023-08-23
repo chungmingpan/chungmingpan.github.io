@@ -7,6 +7,7 @@
 @media screen and (min-width: 600px) {
     .face {
         float: right;
+        margin-right: 10px;
         margin-left: 60px;
     }
     h1 {
