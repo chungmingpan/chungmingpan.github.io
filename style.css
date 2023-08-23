@@ -39,6 +39,7 @@
     }
 }*/
 
+/********** Desktop - 1024px breakpoint ***************************/
 @media screen and (min-width: 1024px) {
     .page {
         width: 860px;
