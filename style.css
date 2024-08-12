@@ -197,8 +197,8 @@ tt {
 
 /*iPhone SUPPORT=====================================--*/
 @media screen and (max-width: 22.500em) {
-    .face {
-        float: right;
+    .photo {
+        float: left;
         margin-right: 10px;
         margin-left: 60px;
     }
