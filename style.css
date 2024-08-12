@@ -66,13 +66,6 @@ body
   margin: auto;
 }
 
-.cadre
-{
-  /*background-color: rgb(151, 204, 255);*/
-  padding-top: 10px;
-  height: 225px;
-  border: 2.5px solid gray;
-}
 /*
 ol
 {
@@ -163,6 +156,13 @@ tt {
 }
 
 /* Blocs */
+
+.cadre {
+  /*background-color: rgb(151, 204, 255);*/
+  padding-top: 10px;
+  height: 225px;
+  border: 2.5px solid gray;
+}
 
 .bloc {
   display: inline-block;
