@@ -5,13 +5,13 @@
 }
 
 /*iPAD SUPPORT=====================================--*/
-@media (max-width: 56.250em) {}
+/*@media (max-width: 56.250em) {}*/
 
 /*NEXUS SUPPORT=====================================--*/
-@media (max-width: 44.063em) {}
+/*@media (max-width: 44.063em) {}*/
 
 /*iPhone SUPPORT=====================================--*/
-@media screen and (max-width: 22.500em) {
+/*@media screen and (max-width: 22.500em) {
     .face {
         float: right;
         margin-right: 10px;
@@ -23,7 +23,7 @@
     p {
         text-align: justify;
     }
-}
+}*/
 /*
 @media screen and (min-width: 600px) {
     .face {
