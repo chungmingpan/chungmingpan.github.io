@@ -130,18 +130,19 @@ tt {
 }
 
 .bloc {
-  display: inline-block;
   vertical-align:top;
 }
 
 .bloc_left {
-  vertical-align:top;
-  float:left;
+  display: inline-block;
+  vertical-align: top;
+  float: left;
 }
 
 .bloc_right {
-  vertical-align:top;
-  float:right;
+  display: inline-block;
+  vertical-align: top;
+  float: right;
 }
 
 /* Images */
@@ -169,8 +170,8 @@ tt {
   height: 190px;
   border-radius: 5px;
   margin-top: 10px;
-  margin-right: 20px;
-  margin-left: 20px;
+  margin-right: 10px;
+  margin-left: 30px;
   vertical-align: top;
 }
 
@@ -185,7 +186,7 @@ tt {
   font-size: 70%;
   position: absolute;
   bottom: 5px;
-  right: 25px;
+  right: 10px;
   color: #6699ff;
 }
 
@@ -196,33 +197,16 @@ tt {
 @media (max-width: 44.063em) {}
 
 /*iPhone SUPPORT=====================================--*/
-@media screen and (max-width: 22.500em) {
-    .photo {
-        float: left;
-        margin-right: 10px;
+@media screen and (min-width: 600px) {
+    /*.photo {
+        float: right;
+        margin-right: 20px;
         margin-left: 60px;
-    }
+    }*/
     h1 {
         text-align: center;
     }
     p {
         text-align: justify;
-    }
-    .cadre {
-      display: unset;
     }
 }
-/*
-@media screen and (min-width: 600px) {
-    .face {
-        float: right;
-        margin-right: 10px;
-        margin-left: 60px;
-    }
-    h1 {
-        text-align: center;
-    }
-    p {
-        text-align: justify;
-    }
-}*/
