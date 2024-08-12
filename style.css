@@ -4,41 +4,6 @@
     initial-scale: 1.0;
 }
 
-/*iPAD SUPPORT=====================================--*/
-/*@media (max-width: 56.250em) {}*/
-
-/*NEXUS SUPPORT=====================================--*/
-/*@media (max-width: 44.063em) {}*/
-
-/*iPhone SUPPORT=====================================--*/
-/*@media screen and (max-width: 22.500em) {
-    .face {
-        float: right;
-        margin-right: 10px;
-        margin-left: 60px;
-    }
-    h1 {
-        text-align: center;
-    }
-    p {
-        text-align: justify;
-    }
-}*/
-/*
-@media screen and (min-width: 600px) {
-    .face {
-        float: right;
-        margin-right: 10px;
-        margin-left: 60px;
-    }
-    h1 {
-        text-align: center;
-    }
-    p {
-        text-align: justify;
-    }
-}*/
-
 /********** Desktop - 1024px breakpoint ***************************/
 @media screen and (min-width: 1024px) {
     .page {
@@ -223,3 +188,41 @@ tt {
   right: 25px;
   color: #6699ff;
 }
+
+/*iPAD SUPPORT=====================================--*/
+@media (max-width: 56.250em) {}
+
+/*NEXUS SUPPORT=====================================--*/
+@media (max-width: 44.063em) {}
+
+/*iPhone SUPPORT=====================================--*/
+@media screen and (max-width: 22.500em) {
+    .face {
+        float: right;
+        margin-right: 10px;
+        margin-left: 60px;
+    }
+    h1 {
+        text-align: center;
+    }
+    p {
+        text-align: justify;
+    }
+    .cadre {
+      display: unser;
+    }
+}
+/*
+@media screen and (min-width: 600px) {
+    .face {
+        float: right;
+        margin-right: 10px;
+        margin-left: 60px;
+    }
+    h1 {
+        text-align: center;
+    }
+    p {
+        text-align: justify;
+    }
+}*/
