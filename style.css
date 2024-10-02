@@ -31,21 +31,26 @@ body
   margin: auto;
 }
 
-/*
-ol
+
+/*ol
 {
-	padding: 10px;
-}
+	padding: 5px;
+}*/
 
 ol li
 {
-	padding: 10px;
-}*/
+	padding: 6px;
+}
 
 /*ul
 {
   list-style-type: none;
 }*/
+
+ul li
+{
+  padding: 6px;
+}
 
 
 
